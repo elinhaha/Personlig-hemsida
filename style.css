@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: "Montserrat", serif;
+  padding: 40px;
+  background-color: black;
+  color: white;
+  height: 20;
+  width: 20;
+}
+
+h1 {
+  font-family: "Montserrat", serif;
+}
+h2 {
+  line-height: 22px;
+  font-family: "Monsterrat", serif;
+}
+
+h3 {
+  font-family: "MOnsterrat", serif;
+}
