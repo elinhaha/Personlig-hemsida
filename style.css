@@ -109,3 +109,48 @@ nav a {
 img {
   border: 5 px solid #b4dde7;
 }
+
+.gif {
+  display: flex;
+  justify-content: center;
+}
+
+.frasse {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.twoinonepicture {
+  position: relative;
+  height: 200px;
+}
+
+.twobilder {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.twobilderoverlay {
+  display: flex;
+  justify-content: center;
+
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+  width: 40px;
+  height: 40px;
+  background-color: cadetblue;
+  opacity: 0.7;
+  border-radius: 50%;
+}
